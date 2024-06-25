@@ -1,0 +1,28 @@
+.treatment{
+    max-width: 1400px;
+    margin: auto;
+    padding: 220px 12px;
+}
+.treatment h2{
+    font-size: 2.66rem;
+    margin-bottom: 1.8rem;
+}
+
+.list-treatment li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.list-treatment li img{
+    width: 60px;
+}
+
+@media (min-width:1042px){
+    .list-treatment{
+        grid-template-columns: repeat(4,1fr);
+    }
+}

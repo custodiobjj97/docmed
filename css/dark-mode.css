@@ -1,0 +1,19 @@
+#dark-mode{
+    visibility: hidden;
+    display: none;
+}
+
+.toggle-dark{
+   padding: 0.90rem 3rem;
+   border-radius: 50px;
+   background-color: var(--color-primary);
+   cursor: pointer;
+   position: fixed;
+   top: 90%;
+   right: 1rem;
+   z-index: 22222222222; 
+}
+
+.toggle-dark #icon{
+    color: #fff;
+}

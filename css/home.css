@@ -1,0 +1,35 @@
+.home{
+    padding: 220px 12px;
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.home-text h1{
+    font-size: 2.66rem;
+    margin-bottom: 1.8rem;
+}
+
+.home-text p{
+    margin-bottom: 1.8rem;
+}
+
+
+
+@media (min-width:1042px){
+    .home{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .home-text h1{
+        font-size: 4rem;
+    }
+
+    .home-image img{
+        max-width: 900px;
+    }
+}
